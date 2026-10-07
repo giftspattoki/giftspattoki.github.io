@@ -1,9 +1,4 @@
-// ===== PRELOADER =====
-window.addEventListener('load', () => {
-    setTimeout(() => {
-        document.getElementById('preloader').classList.add('loaded');
-    }, 1500);
-});
+
 
 // ===== AOS INITIALIZATION =====
 AOS.init({
